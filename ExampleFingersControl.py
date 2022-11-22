@@ -1,6 +1,6 @@
 import time
 from FingersControl import FingersControl
-from calcPosServoHand import calcPosServoHand
+from CalculateGoalPosition import calcPosServoHand
 
 pp=FingersControl()
 cc=calcPosServoHand()
