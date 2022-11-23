@@ -1,5 +1,5 @@
 import unittest
-from  CalculateGoalPosition import *
+from serial_fingers_control.CalculateGoalPosition import *
 
 
 class CalculateGoalPositionTest(unittest.TestCase):
