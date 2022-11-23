@@ -1,24 +1,29 @@
-import time
-from FingersControl import FingersControl
-from CalculateGoalPosition import calcPosServoHand
+from FingersControl import *
+from CalculateGoalPosition import *
 
-pp=FingersControl()
-cc=calcPosServoHand()
+control = FingersControl()
+calculate = calcPosServoHand()
 
-#
-ServoID = 3 
+ServoID = 3
+ServoID = 4
 
-ServoAnglR = 0.00
-ServoAnglL = 0.00
+calc = CalculateGoalPosition(250, 600, 600, 250)
+nullPosLeft = calculate.LeftFinger(0.0)
+nullPosRight = calculate.LeftFinger(0.0)
+fullPosLeft = calculate.LeftFinger(100.0)
+fullPosRight = calculate.LeftFinger(100.0)
 
-HandPos = cc.CalcHand(ServoAnglR,ServoAnglL)
+def Move(servo, pos):
+    control.MoveManage(servo, int(nullPos), 100)
 
-MVManage = pp.MoveManage(ServoID, int(HandPos[0]))
 
-time.sleep(0.02)
-#
-ServoID = 4 
+if __name__ == '__main__':
+    Move(4, nullPosLeft)
+    Move(4, fullPosLeft)
+    Move(3, nullPosRight)
+    Move(3, fullPosRight)
 
-MVManage = pp.MoveManage(ServoID, int(HandPos[1]))
+
+
 
 
