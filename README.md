@@ -6,6 +6,12 @@
 [![CodeSize](https://img.shields.io/github/languages/code-size/Adam-Software/Serial-fingers-control)](https://img.shields.io/github/languages/code-size/Adam-Software/Serial-fingers-control)
 [![Depencies](https://img.shields.io/librariesio/github/Adam-Software/Serial-fingers-control)](https://img.shields.io/librariesio/github/Adam-Software/Serial-fingers-control)
 
+[![PyPI version](https://badge.fury.io/py/serial-fingers-control.svg)](https://badge.fury.io/py/serial-fingers-control)
+[![PythonVersion](https://img.shields.io/pypi/pyversions/serial-fingers-control)](https://img.shields.io/pypi/pyversions/serial-fingers-control)
+[![Wheel](https://img.shields.io/pypi/wheel/serial-fingers-control)](https://img.shields.io/pypi/wheel/serial-fingers-control)
+[![Status](https://img.shields.io/pypi/status/serial-fingers-control)](https://img.shields.io/pypi/status/serial-fingers-control)
+[![Format](https://img.shields.io/pypi/format/serial-fingers-control)](https://img.shields.io/pypi/format/serial-fingers-control)
+
 ### What the library can do?
 
 1. Finger control via the STM32 controller using an outdated API
