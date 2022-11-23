@@ -1,3 +1,4 @@
+import  time
 from FingersControl import *
 from CalculateGoalPosition import *
 
@@ -16,11 +17,15 @@ def Move(servo, pos):
     control.MoveManage(servo, int(pos), 100)
 
 
-if __name__ == '__main__':
-    Move(4, nullPosLeft)
-    Move(4, fullPosLeft)
-    Move(3, nullPosRight)
-    Move(3, fullPosRight)
+#if __name__ == '__main__':
+Move(4, nullPosLeft)
+time.sleep(1)
+Move(3, nullPosRight)
+time.sleep(1)
+Move(4, fullPosLeft)
+time.sleep(1)
+Move(3, fullPosRight)
+time.sleep(1)
 
 
 
