@@ -5,7 +5,7 @@ with open("README.md", "r", encoding = "utf-8") as fh:
 
 setup(
     name='serial-fingers-control',
-    version='0.0.1',
+    version='0.0.2',
     packages=['serial_fingers_control'],
     url='https://github.com/Adam-Software/Serial-fingers-control',
     license='MIT',
