@@ -10,8 +10,8 @@ ServoID = 4
 
 nullPosLeft = calculate.LeftFinger(0.0)
 nullPosRight = calculate.RightFinger(0.0)
-fullPosLeft = calculate.LeftFinger(100.0)
-fullPosRight = calculate.RightFinger(100.0)
+fullPosLeft = calculate.LeftFinger(1.0)
+fullPosRight = calculate.RightFinger(1.0)
 
 def Move(servo, pos):
     control.MoveManage(servo, int(pos), 100)
