@@ -2,12 +2,11 @@ from FingersControl import *
 from CalculateGoalPosition import *
 
 control = FingersControl()
-calculate = calcPosServoHand()
+calculate = CalculateGoalPosition(250, 600, 600, 250)
 
 ServoID = 3
 ServoID = 4
 
-calc = CalculateGoalPosition(250, 600, 600, 250)
 nullPosLeft = calculate.LeftFinger(0.0)
 nullPosRight = calculate.LeftFinger(0.0)
 fullPosLeft = calculate.LeftFinger(100.0)
