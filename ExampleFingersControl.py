@@ -3,7 +3,7 @@ from FingersControl import *
 from CalculateGoalPosition import *
 
 control = FingersControl()
-calculate = CalculateGoalPosition(250, 600, 600, 250)
+calculate = CalculateGoalPosition(284, 563, 715, 562)
 
 ServoID = 3
 ServoID = 4
