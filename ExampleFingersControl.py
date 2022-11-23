@@ -13,7 +13,7 @@ fullPosLeft = calculate.LeftFinger(100.0)
 fullPosRight = calculate.RightFinger(100.0)
 
 def Move(servo, pos):
-    control.MoveManage(servo, int(nullPos), 100)
+    control.MoveManage(servo, int(pos), 100)
 
 
 if __name__ == '__main__':
